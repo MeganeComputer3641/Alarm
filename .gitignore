@@ -8,7 +8,7 @@ Localize
 NCMB.framework
 SDK
 Sounds
-Strings Files
+StringsFiles
 main.m
 Alarm-Info.plist
 Alarm-Prefix.pch
