@@ -1,0 +1,61 @@
+/* 
+  Localizable.strings
+  Alarm
+
+  Created by Megane.computer on 2014/01/07.
+  Copyright (c) 2014年 Meganecomputer. All rights reserved.
+*/
+
+"nigechadameda" = "逃げちゃダメだ逃げちゃダメだ逃げちゃダメだ逃げちゃダメだ";
+
+"twSettingTitle" = "TwitterアカウントがiPhoneに設定されていません";
+"twSettingStr" = "iPhoneの[設定] → [Twitter]にてアカウントを設定して下さい。";
+
+"multiAccountTitle" = "使用するアカウントを選択してください";
+
+"twSettingErrorTitleStr" = "アカウントの使用が許可されていません";
+"twSettingErrorStr" = "iPhoneの[設定] → [Twitter] → [アカウントの使用を許可するAPP] → [デラオキ]をONに設定して下さい。";
+
+//"DTSettingTitle" = "Twitterアカウントが設定されていません";
+//"DTSettingStr" = "[設定]をタップして、Twitterアカウントを登録して下さい。";
+
+"PushSettingTitle" = "Push通知が許可されていません";
+"PushSettingStr" = "デラオキを一度完全終了し(ホームボタンをダブルタップし、アプリのプレビュー画面を上部にスワイプ)、iPhoneの[設定] ⇒ [通知センター] ⇒ [デラオキ]にて、各項目を全てONに設定して下さい。";
+
+"PushStartTitle" = "デラオキツイートはPush通知を使用します";
+"PushStartStr" = "“デラオキ”はあなたにプッシュ通知を送信します。よろしいですか？というポップアップが表示されたら、[OK]をタップして下さい。";
+
+"NotifStartTitle" = "デラオキは通知を使用します";
+"NotifStartStr" = "“デラオキ”は通知を送信します。よろしいですか？というポップアップが表示されたら、[OK]をタップして下さい。";
+
+"NotifStartTitle_iOS8" = "デラオキツイートはプッシュ通知を使用します";
+"NotifStartStr_iOS8" = "デラオキはあなたにプッシュ通知を送信します。よろしいですか？";
+
+"NotifSettingTitle" = "通知が許可されていません";
+"NotifSettingStr" = "デラオキを一度完全終了し(ホームボタンをダブルタップし、アプリのプレビュー画面を上部にスワイプ)、iPhoneの[設定] ⇒ [通知] ⇒ [デラオキ]にて、各項目を全てONに設定して下さい。";
+
+"dvTokenSetStr" = "デラオキを一度完全終了し(ホームボタンをダブルタップし、アプリのプレビュー画面を上部にスワイプ)、iPhoneの[設定] ⇒ [通知](iOS7:通知センター) ⇒ [デラオキ]にて、各項目を全てONに設定後、アプリを再起動して下さい。";
+
+"DTEndTitle" = "デラオキ";
+"DTEndStr" = "残念、ツイートされてしまいました。";
+
+"DTinfoTitle" = "【Deraoki Tweet】";
+"DTinfolabel" = "この機能をオンにすると、\nアラーム発生後に一定時間シェイクの\n達成がされない場合、予め設定された\nTweet WordsがTwitterに\n自動で投稿されます。\n※ 本機能はシェイク達成毎にOFFに戻ります";
+
+"hashTagStr" = "\n #デラオキ #目覚ましアプリ\n";
+
+"TWLabel1" = "爆睡中";
+"TWLabel2" = "ダレカオコシテ";
+"TWLabel3" = "寝坊中(・ω＜)v⌒☆ｷｬﾋﾟｯ";
+"TWLabel4" = "…ｽﾔｧ";
+"TWLabel5" = "寝坊します!";
+
+"TWwords1" = "爆睡中";
+"TWwords2" = "ダレカオコシテ";
+"TWwords3" = "寝坊中(・ω＜)v⌒☆ｷｬﾋﾟｯ";
+"TWwords4" = "＼　...ｽﾔｧ    　/\n  ￣￣￣∨￣￣\n|￣￣( ˘ω˘  )   ￣|\n|＼⌒⌒⌒⌒⌒⌒＼\n|　 ＼⌒⌒⌒⌒⌒⌒＼\n＼　｜⌒⌒⌒⌒⌒⌒⌒|\n 　＼|＿＿＿＿＿＿＿_|\n";
+"TWwords5" = "　私、寝坊します！\n　　　∧_,,∧\n　　　(`･ω･´)\n　　　Ｕθ Ｕ\n　／￣￣｜￣￣＼\n　|二二二二二二二|\n\nﾊﾟｼｬ ﾊﾟｼｬ ﾊﾟｼｬ ﾊﾟｼｬ\n　  ∧∧└　∧∧\n　(　　)】(　　)】\n　/　/┘　/　/┘\nノ￣ヽ　ノ￣ヽ";
+
+"AAInfo4" = "＼　...ｽﾔｧ    　/\n  ￣￣￣∨￣￣\n|￣￣( ˘ω˘  )   ￣|\n　|＼⌒⌒⌒⌒⌒⌒＼\n　　|　＼⌒⌒⌒⌒⌒⌒＼\n　　　＼　｜⌒⌒⌒⌒⌒⌒⌒|\n 　　　　＼|＿＿＿＿＿＿＿_|\n";
+"AAInfo5" = "　私、寝坊します！\n　∧_,,∧\n　(`･ω･´)\n　Ｕθ Ｕ\n　／￣￣｜￣￣＼\n　|二二二二二二二|\n\nﾊﾟｼｬ ﾊﾟｼｬ ﾊﾟｼｬ ﾊﾟｼｬ\n∧∧└　∧∧　　　　　　　　　　　\n　(　　)】(　　)】\n　/　/┘　/　/┘\nノ￣ヽ　ノ￣ヽ";
+
