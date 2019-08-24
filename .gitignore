@@ -1,0 +1,14 @@
+Alarm.xcodeproj
+AlarmTests
+Base.lproj
+diff
+Images
+Images.xcassets
+Localize
+NCMB.framework
+SDK
+Sounds
+Strings Files
+main.m
+Alarm-Info.plist
+Alarm-Prefix.pch
