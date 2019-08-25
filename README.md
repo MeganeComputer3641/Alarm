@@ -21,6 +21,9 @@
 * Xcode：8.2  
 * iOS：8.0　（Deployment Target）  
 
+## License
+No License
+
 ## 作者
 Shuji Takahashi  
 * Twitter:[@Meganecomputer](https://twitter.com/Meganecomputer "Twitter")
