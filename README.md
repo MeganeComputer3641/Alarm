@@ -23,5 +23,5 @@
 
 ## 作者
 Shuji Takahashi  
-* Twitter：@Meganecomputer
+* Twitter：https://twitter.com/Meganecomputer "@Meganecomputer"
 
