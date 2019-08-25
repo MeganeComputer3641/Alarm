@@ -22,7 +22,7 @@
 * iOS：8.0　（Deployment Target）  
 
 ## License
-No License　(For more Information:[No License](https://choosealicense.com/no-permission/ "License"))
+No License
 
 ## 作者
 Shuji Takahashi  
