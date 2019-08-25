@@ -17,7 +17,8 @@
 本当に起きたい日はtwitterのフォロワーに事前に伝えておけば、フォロワーが起こしてくれるかも？
   
   
-## 環境、Version等
+  
+## 環境/Version等
 使用言語：Objective-C  
 Xcode：8.2  
 iOS：8.0　（Deployment Target）  
