@@ -21,6 +21,14 @@
 * Xcode：8.2  
 * iOS：8.0　（Deployment Target）  
 
+## アプリで使用しているライブラリ
+* [UIAlertView-Blocks](https://github.com/jivadevoe/UIAlertView-Blocks "UIAlertView-Blocks")
+* [JSONKit](https://github.com/johnezang/JSONKit "JSONKit")
+* [Google Analytics v3.0](https://developers.google.com/analytics/devguides/collection/ios/v3/sdk-download?hl=ja "Google Analytics v3.0")
+* [ニフクラ mobile backend iOS SDK v2.0.9](https://github.com/NIFCloud-mbaas/ncmb_ios "ニフクラ mobile backend iOS SDK v2.0.9")
+* [NendSDK_iOS-3.2.2](https://github.com/fan-ADN/nendSDK-iOS "NendSDK_iOS-3.2.2")
+
+
 ## License
 No License
 
