@@ -188,7 +188,7 @@
 		EA3B39F71E08409500610A29 /* NADView_readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NADView_readme.txt; sourceTree = "<group>"; };
 		EA4DC221184ADDCF002D8848 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		EA4DC223184B66E7002D8848 /* bg_iphone4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg_iphone4.jpg; sourceTree = "<group>"; };
-		EA5C538D1ABE2517001E061F /* NCMB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NCMB.framework; path = ../../SDK/NCMB.framework; sourceTree = "<group>"; };
+		EA5C538D1ABE2517001E061F /* NCMB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NCMB.framework; path = SDK/NCMB.framework; sourceTree = "<group>"; };
 		EA672E8D1939DF7F00F2FD60 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		EA672E971939E78700F2FD60 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		EA672E9F193B051600F2FD60 /* bg_black_640_960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_black_640_960.png; sourceTree = "<group>"; };
@@ -337,7 +337,7 @@
 				EA148E3818D46D2A009BA7B2 /* UIAlertView-Blocks.podspec */,
 			);
 			name = "UIAlertView-Blocks-master";
-			path = "../../SDK/UIAlertView-Blocks-master";
+			path = "SDK/UIAlertView-Blocks-master";
 			sourceTree = "<group>";
 		};
 		EA2ADA6318F17A3C009C33C7 /* Sounds */ = {
@@ -474,7 +474,7 @@
 				EA3B39F71E08409500610A29 /* NADView_readme.txt */,
 			);
 			name = NendAd;
-			path = "../../SDK/NendSDK_iOS-3.2.2/Nend/NendAd";
+			path = "SDK/NendSDK_iOS-3.2.2/Nend/NendAd";
 			sourceTree = "<group>";
 		};
 		EA672EB6193B0CF400F2FD60 /* Tutorial */ = {
@@ -800,7 +800,7 @@
 				EAF54E5C19BED15B006966B8 /* libGoogleAnalyticsServices.a */,
 			);
 			name = GoogleAnalytics;
-			path = ../../SDK/GoogleAnalytics;
+			path = SDK/GoogleAnalytics;
 			sourceTree = "<group>";
 		};
 		EAF54E5E19BED176006966B8 /* JSONKit-master */ = {
@@ -812,7 +812,7 @@
 				EAF54E6219BED176006966B8 /* README_JSON.md */,
 			);
 			name = "JSONKit-master";
-			path = "../../SDK/JSONKit-master";
+			path = "SDK/JSONKit-master";
 			sourceTree = "<group>";
 		};
 		EAF54E6619BED193006966B8 /* CheckBoxClass */ = {
@@ -822,7 +822,7 @@
 				EAF54E6819BED193006966B8 /* CheckboxButton.m */,
 			);
 			name = CheckBoxClass;
-			path = ../../SDK/CheckBoxClass;
+			path = SDK/CheckBoxClass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

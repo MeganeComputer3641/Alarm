@@ -1,0 +1,66 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import "GAI.h"
+    #import "GAIDictionaryBuilder.h"
+    #import "GAIFields.h"
+    #import "GAITrackedViewController.h"
+
+#endif
+
+
+//---------------------------------------
+//　デバック時ビルド設定
+#ifdef DEBUG
+    #define DLog(fmt,...)  NSLog((@"%s (%d)" fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__); //Log出力有効
+    // GA初期化設定（Log出力あり）
+    #define GA_INIT_TRACKER(INTERVAL, ACCOUNT) {\
+        [GAI sharedInstance].trackUncaughtExceptions = YES; \
+        [GAI sharedInstance].dispatchInterval = INTERVAL; \
+        [[[GAI sharedInstance] logger] setLogLevel:kGAILogLevelNone]; \
+        [[GAI sharedInstance] trackerWithTrackingId:ACCOUNT]; \
+        [[GAI sharedInstance] setDryRun:YES]; \
+}
+#else
+    #define DLog(...);  //Log出力無効
+    #define NSLog(...); //Log出力無効
+    // GA初期化設定（Log出力なし）
+    #define GA_INIT_TRACKER(INTERVAL, ACCOUNT) {\
+        [GAI sharedInstance].trackUncaughtExceptions = YES; \
+        [GAI sharedInstance].dispatchInterval = INTERVAL; \
+        [[[GAI sharedInstance] logger] setLogLevel:kGAILogLevelNone]; \
+        [[GAI sharedInstance] trackerWithTrackingId:ACCOUNT]; \
+}
+#endif
+
+
+//---------------------------------------
+// Google Analytics マクロ
+//表示画面トラッキングメソッド
+#define GA_TRACK_PAGE(PAGE) {\
+    [[[GAI sharedInstance] defaultTracker] send:[[[GAIDictionaryBuilder createAppView] set:PAGE forKey:kGAIScreenName] build]];\
+};
+
+//イベントトラッキングメソッド
+#define GA_TRACK_EVENT(CATEGORY,ACTION,LABEL,VALUE) {\
+    [[[GAI sharedInstance] defaultTracker] send:[[GAIDictionaryBuilder createEventWithCategory:CATEGORY \
+                                                                                               action:ACTION \
+                                                                                               label:LABEL \
+                                                                                               value:VALUE] build]]; \
+};
+/*簡易実装用メソッド
+#define GA_TRACK_VIEW  GA_TRACK_PAGE(NSStringFromClass([self class])); //表示画面トラッキング用
+#define GA_TRACK_METHOD GA_TRACK_EVENT(NSStringFromClass([self class]),  NSStringFromSelector(_cmd), @"", nil); //イベントトラッキング用
+*/
